@@ -41,3 +41,7 @@ with open("students.txt", "r") as file:
     for line in file:
         if len(line)>6:
             print(line)
+ 
+git init
+git add .
+git commit -m "im done"
